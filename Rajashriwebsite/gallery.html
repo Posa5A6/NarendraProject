@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Photo gallery of Hotel Rajshri - Shruthi Pure Veg. AC Restaurant. Explore restaurant exterior, interior, dining area, and ambience.">
+  <title>Gallery | Hotel Rajshri</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <header id="site-header"></header>
+
+  <!-- Page Header -->
+  <section class="d-flex align-items-center justify-content-center text-center text-white" style="min-height: 45vh; background: linear-gradient(135deg, rgba(11,93,78,0.92), rgba(8,69,58,0.95)), url('assets/images/interior-seating-booths.jpeg') center/cover no-repeat; padding-top: 6rem;">
+    <div class="container reveal">
+      <h1 class="display-4 fw-bold mb-3">Gallery</h1>
+      <p class="lead mb-0">A glimpse of Hotel Rajshri</p>
+    </div>
+  </section>
+
+  <!-- Gallery Grid -->
+  <section class="section-padding bg-cream">
+    <div class="container">
+      <div class="text-center reveal">
+        <h2 class="section-title">Restaurant Gallery</h2>
+        <p class="section-subtitle mx-auto" style="max-width: 600px;">A glimpse of Hotel Rajshri's signboard, seating, dining area, and food counter.</p>
+      </div>
+      <div id="gallery-grid" class="row g-4">
+        <!-- Populated by gallery.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Placeholder Note -->
+  <section class="section-padding">
+    <div class="container reveal">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 text-center">
+          <div class="feature-card border-0 shadow-sm">
+            <div class="feature-icon"><i class="fa-solid fa-images"></i></div>
+            <h3 class="feature-title">Visit Hotel Rajshri</h3>
+            <p class="feature-text">
+              These photographs show the actual Hotel Rajshri restaurant. More photos can be added to <code>js/gallery.js</code> at any time.
+            </p>
+            <a href="contact.html" class="btn btn-primary-custom mt-3">Contact Us</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="site-footer"></footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/gallery.js"></script>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      if (typeof renderGallery === 'function') {
+        renderGallery('gallery-grid');
+      }
+    });
+  </script>
+</body>
+</html>
