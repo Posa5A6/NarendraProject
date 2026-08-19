@@ -1,0 +1,693 @@
+{
+  "book": "main",
+  "title": "Main Menu",
+  "subtitle": "Hotel Rajshri · Pure Vegetarian",
+  "categories": [
+    {
+      "id": "breakfast",
+      "title": "Breakfast",
+      "timing": "8:00 – 11:00",
+      "items": [
+        {
+          "name": "Idly",
+          "price": "₹32.50",
+          "image": ""
+        },
+        {
+          "name": "Vada",
+          "price": "₹39",
+          "image": ""
+        },
+        {
+          "name": "Upma",
+          "price": "₹58.50",
+          "image": ""
+        },
+        {
+          "name": "Pongal",
+          "price": "₹65",
+          "image": ""
+        },
+        {
+          "name": "Kesari Bath",
+          "price": "₹65",
+          "image": ""
+        },
+        {
+          "name": "Chow Chow Bath",
+          "price": "₹107",
+          "image": ""
+        },
+        {
+          "name": "Poori",
+          "price": "₹91",
+          "image": ""
+        },
+        {
+          "name": "Plain Dosa",
+          "price": "₹71",
+          "image": ""
+        },
+        {
+          "name": "Masala Dosa",
+          "price": "₹91",
+          "image": ""
+        },
+        {
+          "name": "Set Dosa",
+          "price": "₹97.50",
+          "image": ""
+        },
+        {
+          "name": "Spt. Dosa",
+          "price": "₹104.50",
+          "image": ""
+        },
+        {
+          "name": "Onion Dosa",
+          "price": "₹107",
+          "image": ""
+        },
+        {
+          "name": "Uttappa",
+          "price": "₹107",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "title": "Soups",
+      "timing": "12:30 – 3:00",
+      "items": [
+        {
+          "name": "Tomato Soup",
+          "price": "₹126",
+          "image": ""
+        },
+        {
+          "name": "Hot & Sour Soup",
+          "price": "₹140",
+          "image": ""
+        },
+        {
+          "name": "Manchow Soup",
+          "price": "₹140",
+          "image": ""
+        },
+        {
+          "name": "Garlic Soup",
+          "price": "₹126",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "papad-snacks",
+      "title": "Papad & Snacks",
+      "timing": "12:30 – 3:00",
+      "items": [
+        {
+          "name": "Masala Papad",
+          "price": "₹52",
+          "image": ""
+        },
+        {
+          "name": "Dry Papad",
+          "price": "₹35",
+          "image": ""
+        },
+        {
+          "name": "French Fries",
+          "price": "₹154",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "starters",
+      "title": "Starters",
+      "timing": "12:30 – 3:00",
+      "items": [
+        {
+          "name": "Gobi Manchurian",
+          "price": "₹245",
+          "image": ""
+        },
+        {
+          "name": "Veg. Manchurian",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Mushroom Manchurian",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Paneer Manchurian",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Mushroom Chilly",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Babycorn Chilly",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Paneer Chilly",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Cheese Manchurian",
+          "price": "₹350",
+          "image": ""
+        },
+        {
+          "name": "Babycorn Chilly Manchurian",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Gobi Chilly",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Gobi 65",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Paneer 65",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Paneer Pepper",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Mushroom Manchurian",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Babycorn Pepper",
+          "price": "₹315",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "meals",
+      "title": "Meals & Thalis",
+      "timing": "12:30 – 3:00",
+      "items": [
+        {
+          "name": "Plate Meals",
+          "price": "₹154",
+          "image": ""
+        },
+        {
+          "name": "South Indian Thali",
+          "price": "₹245",
+          "image": ""
+        },
+        {
+          "name": "North Indian Thali",
+          "price": "₹325",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "rotis",
+      "title": "Rotis & Indian Breads",
+      "timing": "12:30 – 3:00 · 7:30 – 10:00",
+      "items": [
+        {
+          "name": "Roti",
+          "price": "₹42",
+          "image": ""
+        },
+        {
+          "name": "Pudina Roti",
+          "price": "₹42",
+          "image": ""
+        },
+        {
+          "name": "Methi Roti",
+          "price": "₹42",
+          "image": ""
+        },
+        {
+          "name": "Onion Roti",
+          "price": "₹42",
+          "image": ""
+        },
+        {
+          "name": "Butter Roti",
+          "price": "₹56",
+          "image": ""
+        },
+        {
+          "name": "Nan",
+          "price": "₹56",
+          "image": ""
+        },
+        {
+          "name": "Kulcha",
+          "price": "₹56",
+          "image": ""
+        },
+        {
+          "name": "Butter Kulcha",
+          "price": "₹70",
+          "image": ""
+        },
+        {
+          "name": "Butter Nan",
+          "price": "₹70",
+          "image": ""
+        },
+        {
+          "name": "Parotha",
+          "price": "₹56",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "dal",
+      "title": "Dal",
+      "timing": "12:30 – 3:00 · 7:30 – 10:00",
+      "items": [
+        {
+          "name": "Dal Fry",
+          "price": "₹154",
+          "image": ""
+        },
+        {
+          "name": "Dal Tadka",
+          "price": "₹182",
+          "image": ""
+        },
+        {
+          "name": "Chilly Fry",
+          "price": "₹70",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "north-indian-sabjis",
+      "title": "North Indian Sabjis",
+      "timing": "12:30 – 3:00 · 7:30 – 10:00",
+      "items": [
+        {
+          "name": "Aloo Gobi",
+          "price": "₹230",
+          "image": ""
+        },
+        {
+          "name": "Aloo Palak",
+          "price": "₹230",
+          "image": ""
+        },
+        {
+          "name": "Aloo Tomato",
+          "price": "₹230",
+          "image": ""
+        },
+        {
+          "name": "Aloo Capsicum",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Plain Palak",
+          "price": "₹230",
+          "image": ""
+        },
+        {
+          "name": "Tomato Curry",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Mix Veg Curry",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Veg Tadka",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Mutter Kaju",
+          "price": "₹350",
+          "image": ""
+        },
+        {
+          "name": "Green Pease Masala",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Capsicum Masala",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Palak Paneer",
+          "price": "₹336",
+          "image": ""
+        },
+        {
+          "name": "Mix Veg Palak",
+          "price": "₹336",
+          "image": ""
+        },
+        {
+          "name": "Kaju Garlic",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Veg Kolhapuri",
+          "price": "₹385",
+          "image": ""
+        },
+        {
+          "name": "Veg. Veghovar",
+          "price": "₹364",
+          "image": ""
+        },
+        {
+          "name": "Veg Shahi Kurma",
+          "price": "₹385",
+          "image": ""
+        },
+        {
+          "name": "Pudina Paneer",
+          "price": "₹385",
+          "image": ""
+        },
+        {
+          "name": "Paneer Butter Masala",
+          "price": "₹364",
+          "image": ""
+        },
+        {
+          "name": "Mutter Paneer",
+          "price": "₹364",
+          "image": ""
+        },
+        {
+          "name": "Kaju Mushroom",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Paneer Shahi Kurma",
+          "price": "₹385",
+          "image": ""
+        },
+        {
+          "name": "Paneer Bhurji",
+          "price": "₹385",
+          "image": ""
+        },
+        {
+          "name": "Malai Kofta",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Aloo Kaju",
+          "price": "₹385",
+          "image": ""
+        },
+        {
+          "name": "Mushroom Masala",
+          "price": "₹365",
+          "image": ""
+        },
+        {
+          "name": "Paneer Kofta",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Paneer Mumtaz",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Paneer Tikka Masala",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Kaju Kurma",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Kaju Paneer",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Veg Kadai",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Paneer Handi",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Mushroom Handi",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Kadai Mushroom",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Kadai Paneer",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Achari Paneer",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Methi Chaman",
+          "price": "₹386",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "raitas",
+      "title": "Raithas",
+      "timing": "12:30 – 3:00 · 7:30 – 10:00",
+      "items": [
+        {
+          "name": "Mix Raitha",
+          "price": "₹84",
+          "image": ""
+        },
+        {
+          "name": "Aloo Raitha",
+          "price": "₹84",
+          "image": ""
+        },
+        {
+          "name": "Tomato Raitha",
+          "price": "₹84",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "rice-items",
+      "title": "Rice Items",
+      "timing": "12:30 – 3:00 · 7:30 – 10:00",
+      "items": [
+        {
+          "name": "Plain Rice",
+          "price": "₹56",
+          "image": ""
+        },
+        {
+          "name": "Curd Rice",
+          "price": "₹70",
+          "image": ""
+        },
+        {
+          "name": "SPL. Curd Rice",
+          "price": "₹84",
+          "image": ""
+        },
+        {
+          "name": "Tomato Rice",
+          "price": "₹196",
+          "image": ""
+        },
+        {
+          "name": "Veg Pulav",
+          "price": "₹196",
+          "image": ""
+        },
+        {
+          "name": "Pease Pulav",
+          "price": "₹210",
+          "image": ""
+        },
+        {
+          "name": "Veg. Biryani",
+          "price": "₹224",
+          "image": ""
+        },
+        {
+          "name": "Ghee Rice",
+          "price": "₹224",
+          "image": ""
+        },
+        {
+          "name": "Zeera Rice",
+          "price": "₹224",
+          "image": ""
+        },
+        {
+          "name": "Paneer Pulav",
+          "price": "₹294",
+          "image": ""
+        },
+        {
+          "name": "Hyderabadi Biryani",
+          "price": "₹294",
+          "image": ""
+        },
+        {
+          "name": "Mushroom Pulav",
+          "price": "₹294",
+          "image": ""
+        },
+        {
+          "name": "Handi Pulav",
+          "price": "₹294",
+          "image": ""
+        },
+        {
+          "name": "Dal Khichdi",
+          "price": "₹294",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "fried-rice",
+      "title": "Fried Rice",
+      "timing": "12:30 – 3:00 · 7:30 – 10:00",
+      "items": [
+        {
+          "name": "Veg Fried Rice",
+          "price": "₹252",
+          "image": ""
+        },
+        {
+          "name": "Mix Fried Rice",
+          "price": "₹294",
+          "image": ""
+        },
+        {
+          "name": "Gobi Fried Rice",
+          "price": "₹294",
+          "image": ""
+        },
+        {
+          "name": "Mushroom Fried Rice",
+          "price": "₹294",
+          "image": ""
+        },
+        {
+          "name": "Paneer Fried Rice",
+          "price": "₹294",
+          "image": ""
+        },
+        {
+          "name": "Schezwan Fried Rice",
+          "price": "₹336",
+          "image": ""
+        },
+        {
+          "name": "Kaju Fried Rice",
+          "price": "₹350",
+          "image": ""
+        },
+        {
+          "name": "Noodle With Fried Rice",
+          "price": "₹252",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "noodles",
+      "title": "Noodles",
+      "timing": "12:30 – 3:00 · 7:30 – 10:00",
+      "items": [
+        {
+          "name": "Veg Soft Noodles",
+          "price": "₹182",
+          "image": ""
+        },
+        {
+          "name": "Veg Hakka Noodles",
+          "price": "₹210",
+          "image": ""
+        },
+        {
+          "name": "Chilly Garlic Noodles",
+          "price": "₹266",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "title": "Desserts",
+      "timing": "All day",
+      "items": [
+        {
+          "name": "Gulab Jamun",
+          "price": "₹42",
+          "image": ""
+        },
+        {
+          "name": "Basundi",
+          "price": "₹49",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}
