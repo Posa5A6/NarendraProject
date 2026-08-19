@@ -1,0 +1,161 @@
+{
+  "book": "jain",
+  "title": "Jain Menu",
+  "subtitle": "Hotel Rajshri · Pure Vegetarian",
+  "categories": [
+    {
+      "id": "breakfast",
+      "title": "Breakfast",
+      "timing": "8:00 – 11:00",
+      "items": [
+        {
+          "name": "Idly",
+          "price": "₹32.50",
+          "timing": [
+            "morning",
+            "evening"
+          ],
+          "image": ""
+        },
+        {
+          "name": "Vada",
+          "price": "₹39",
+          "timing": [
+            "morning",
+            "evening"
+          ],
+          "image": ""
+        },
+        {
+          "name": "Pongal",
+          "price": "₹65",
+          "timing": [
+            "morning"
+          ],
+          "image": ""
+        },
+        {
+          "name": "Set Dosa",
+          "price": "₹97.50",
+          "timing": [
+            "morning",
+            "evening"
+          ],
+          "image": ""
+        },
+        {
+          "name": "Plain Dosa",
+          "price": "₹71.50",
+          "timing": [
+            "morning",
+            "evening"
+          ],
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "soups",
+      "title": "Soups",
+      "timing": "12:30 – 3:00 · 7:30 – 10:00",
+      "items": [
+        {
+          "name": "L/C Soup (Lemon, Coriander)",
+          "price": "₹140",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "starters",
+      "title": "Starters",
+      "timing": "12:30 – 3:00 · 7:30 – 10:00",
+      "items": [
+        {
+          "name": "Paneer Manchurian",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Cheese Manchurian",
+          "price": "₹350",
+          "image": ""
+        },
+        {
+          "name": "Babycorn Manchurian",
+          "price": "₹315",
+          "image": ""
+        },
+        {
+          "name": "Paneer Chilly",
+          "price": "₹315",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "rotis",
+      "title": "Rotis",
+      "timing": "12:30 – 3:00 · 7:30 – 10:00",
+      "items": [
+        {
+          "name": "Roti",
+          "price": "₹42",
+          "image": ""
+        },
+        {
+          "name": "Butter Naan",
+          "price": "₹70",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": "sabjis",
+      "title": "Sabjis",
+      "timing": "12:30 – 3:00 · 7:30 – 10:00",
+      "items": [
+        {
+          "name": "Paneer Butter Masala",
+          "price": "₹364",
+          "image": ""
+        },
+        {
+          "name": "Mutter Paneer",
+          "price": "₹364",
+          "image": ""
+        },
+        {
+          "name": "Paneer Kadai",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Paneer Kheema",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Paneer Shahi Kurma",
+          "price": "₹385",
+          "image": ""
+        },
+        {
+          "name": "Kaju Masala",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Kaju Paneer",
+          "price": "₹406",
+          "image": ""
+        },
+        {
+          "name": "Mutter Kaju",
+          "price": "₹350",
+          "image": ""
+        }
+      ]
+    }
+  ]
+}

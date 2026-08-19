@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Menus · Hotel Rajshri</title>
+  <link rel="icon" type="image/png" href="assets/logo-cropped.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/menu-books.css">
+  <link rel="stylesheet" href="css/luxury.css">
+</head>
+<body class="menu-book-page luxury-page">
+  <div id="site-header"></div>
+  <main>
+    <section class="menu-book-hero">
+      <div class="menu-book-grain"></div>
+      <div class="container menu-book-intro">
+        <div class="eyebrow">Hotel Rajshri · The menu</div>
+        <h1 class="serif">Choose a book.<br><em>Take your time.</em></h1>
+        <p>Two menus, one kitchen. Pick a book and turn through the restaurant's dishes at your own pace.</p>
+      </div>
+    </section>
+
+    <section class="menu-library section compact">
+      <div class="container">
+        <div class="book-shelf" aria-label="Restaurant menus">
+          <article class="menu-book-card main-book" data-book="main" tabindex="0" role="button" aria-label="Open Main Menu">
+            <div class="book-shadow"></div>
+            <div class="book-object">
+              <div class="book-pages-edge"></div>
+              <div class="book-cover book-cover-main">
+                <div class="cover-inner">
+                  <div class="cover-logo-plaque"><img class="cover-logo" src="assets/logo-cropped.png" alt="Hotel Rajshri"></div>
+                  <span class="cover-rule"></span>
+                  <h2 class="serif">Main <em>Menu</em></h2>
+                  <span class="cover-sub">PURE VEGETARIAN · A/C RESTAURANT</span>
+                  <span class="cover-corner">01</span>
+                </div>
+              </div>
+              <span class="book-ribbon">Open</span>
+            </div>
+            <div class="book-card-copy">
+              <div><span class="book-number">01</span><h3>Main Menu</h3></div>
+              <p>Breakfast · Starters · Roti · Rice · Curries · Desserts</p>
+              <span class="book-open">Click to view menu <b>↗</b></span>
+            </div>
+          </article>
+
+          <article class="menu-book-card jain-book" data-book="jain" tabindex="0" role="button" aria-label="Open Jain Menu">
+            <div class="book-shadow"></div>
+            <div class="book-object">
+              <div class="book-pages-edge"></div>
+              <div class="book-cover book-cover-jain">
+                <div class="cover-inner">
+                  <div class="cover-logo-plaque"><img class="cover-logo" src="assets/logo-cropped.png" alt="Hotel Rajshri"></div>
+                  <span class="cover-rule"></span>
+                  <h2 class="serif">Jain <em>Menu</em></h2>
+                  <span class="cover-sub">A SEPARATE SELECTION</span>
+                  <span class="cover-corner">02</span>
+                </div>
+              </div>
+              <span class="book-ribbon">Open</span>
+            </div>
+            <div class="book-card-copy">
+              <div><span class="book-number">02</span><h3>Jain Menu</h3></div>
+              <p>A dedicated menu for Jain guests, kept separate from the main selection.</p>
+              <span class="book-open">Click to view menu <b>↗</b></span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-book-bottom">
+      <div class="container">
+        <div class="menu-bottom-line"></div>
+        <p class="serif">Good food deserves a little page-turning.</p>
+      </div>
+    </section>
+  </main>
+
+  <div class="menu-reader" id="menu-reader" aria-hidden="true">
+    <div class="reader-backdrop" data-close-reader></div>
+    <div class="reader-shell" role="dialog" aria-modal="true" aria-labelledby="reader-title">
+      <button class="reader-close" type="button" aria-label="Close menu">×</button>
+      <div class="reader-topbar">
+        <div class="reader-brand"><img src="assets/logo-cropped.png" alt="Hotel Rajshri"><div><span class="reader-kicker">THE MENU BOOK</span><h2 id="reader-title" class="serif">Main Menu</h2></div></div>
+        <div class="reader-counter"><span id="reader-page">01</span> / <span id="reader-total">03</span></div>
+      </div>
+
+      <div class="reader-toolbar">
+        <div class="reader-search-wrap">
+          <span>⌕</span>
+          <input id="reader-search" type="search" placeholder="Search dishes or categories" autocomplete="off">
+          <button id="reader-search-clear" type="button" aria-label="Clear search">×</button>
+        </div>
+        <div class="reader-search-results" id="reader-search-results" hidden></div>
+      </div>
+
+      <div class="reader-book-stage">
+        <div class="reader-book" id="reader-book">
+          <div class="reader-spine"></div>
+          <div class="reader-page reader-left" id="reader-left"></div>
+          <div class="reader-page reader-right" id="reader-right"></div>
+        </div>
+        <aside class="reader-index" aria-label="Menu categories">
+          <div class="reader-index-cap"><span>INDEX</span><i></i></div>
+          <div class="reader-tabs" id="reader-tabs"></div>
+        </aside>
+      </div>
+
+      <div class="reader-controls">
+        <button class="reader-arrow" id="reader-prev" type="button" aria-label="Previous page">← <span>Previous</span></button>
+        <div class="reader-hint">Drag with your eyes, click a page, or use ← →</div>
+        <button class="reader-arrow" id="reader-next" type="button" aria-label="Next page"><span>Next</span> →</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="site-footer"></div>
+  <div class="toast"></div>
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/menu-books.js"></script>
+</body>
+</html>
