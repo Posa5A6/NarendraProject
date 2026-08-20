@@ -29,6 +29,25 @@
   let searchTimer = 0;
   let selectedSearchTerm = '';
   let searchSelectionLocked = false;
+  let lockedScrollY = 0;
+
+  function lockBackground() {
+    lockedScrollY = window.scrollY;
+    document.documentElement.classList.add('reader-scroll-lock');
+    document.body.classList.add('no-scroll', 'reader-scroll-lock');
+    document.body.style.position = 'fixed';
+    document.body.style.top = `-${lockedScrollY}px`;
+    document.body.style.width = '100%';
+  }
+
+  function unlockBackground() {
+    document.documentElement.classList.remove('reader-scroll-lock');
+    document.body.classList.remove('no-scroll', 'reader-scroll-lock');
+    document.body.style.position = '';
+    document.body.style.top = '';
+    document.body.style.width = '';
+    window.scrollTo(0, lockedScrollY);
+  }
 
   const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({
     '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'
@@ -210,10 +229,11 @@
     const matches = [];
 
     (book?.categories || []).forEach(category => {
-      (category.items || []).forEach(item => {
+      (category.items || []).forEach((item, itemIndex) => {
         const haystack = `${category.title} ${item.name}`.toLowerCase();
         if (haystack.includes(term)) {
-          matches.push({ item, category, spread: isMobile() ? (layout.firstPageByCategory[category.id] || 0) : (layout.firstSpreadByCategory[category.id] || 0) });
+          const pageIndex = (layout.firstPageByCategory[category.id] || 0) + Math.floor(itemIndex / (isMobile() ? 5 : 8));
+          matches.push({ item, category, spread: isMobile() ? pageIndex : Math.floor(pageIndex / 2) });
         }
       });
       if (category.title.toLowerCase().includes(term)) {
@@ -278,14 +298,14 @@
     searchResults.hidden = true;
     reader.classList.add('is-open');
     reader.setAttribute('aria-hidden', 'false');
-    document.body.classList.add('no-scroll');
+    lockBackground();
     window.setTimeout(() => reader.querySelector('.reader-close')?.focus(), 80);
   }
 
   function close() {
     reader.classList.remove('is-open');
     reader.setAttribute('aria-hidden', 'true');
-    document.body.classList.remove('no-scroll');
+    unlockBackground();
   }
 
   function createTurningSheet(direction, html) {

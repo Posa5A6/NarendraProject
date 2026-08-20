@@ -4,7 +4,7 @@ const SITE={
  address:'Railway Station Road, HBG Nagar, Adoni, Andhra Pradesh 518301',
  phone:'+91 99594 61888', phoneVerified:true,
  coords:{lat:15.6214563,lng:77.2754197},
- maps:'https://www.google.com/maps/place/Rajshri+Pure+Veg+Restaurant/@15.6214563,77.2754197,17z',
+ maps:'https://www.google.com/maps/dir/?api=1&destination=15.6214563%2C77.2754197',
  timings:[['Breakfast','8:00 AM – 11:00 AM'],['Lunch','12:30 PM – 3:00 PM'],['Dinner','7:30 PM – 10:00 PM']],
  logo:'assets/logo-cropped.png'
 };
